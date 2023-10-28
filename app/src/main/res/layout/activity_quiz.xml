@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro"
+    tools:context=".QuizActivity">
+
+    <ImageView
+        android:id="@+id/image_view_quiz"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg" />
+
+    <TextView
+        android:id="@+id/text_view_question_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Who is Lunatic?.!!!"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/image_view_quiz"
+        app:layout_constraintStart_toStartOf="@id/image_view_quiz"
+        app:layout_constraintTop_toBottomOf="@id/image_view_quiz" />
+
+    <Button
+        android:id="@+id/option_1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="OPTION 1"
+        app:layout_constraintBottom_toTopOf="@id/option_2"
+        app:layout_constraintEnd_toEndOf="@id/text_view_question_quiz"
+        app:layout_constraintStart_toStartOf="@id/text_view_question_quiz"
+        app:layout_constraintTop_toBottomOf="@id/text_view_question_quiz" />
+
+    <Button
+        android:id="@+id/option_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="OPTION 2"
+        app:layout_constraintBottom_toTopOf="@id/option_3"
+        app:layout_constraintEnd_toEndOf="@id/option_1"
+        app:layout_constraintStart_toStartOf="@id/option_1"
+        app:layout_constraintTop_toBottomOf="@id/option_1" />
+
+    <Button
+        android:id="@+id/option_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="OPTION 3"
+        app:layout_constraintBottom_toTopOf="@id/option_4"
+        app:layout_constraintEnd_toEndOf="@id/option_2"
+        app:layout_constraintStart_toStartOf="@id/option_2"
+        app:layout_constraintTop_toBottomOf="@id/option_2" />
+
+    <Button
+        android:id="@+id/option_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="OPTION 4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/option_3"
+        app:layout_constraintStart_toStartOf="@id/option_3"
+        app:layout_constraintTop_toBottomOf="@id/option_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

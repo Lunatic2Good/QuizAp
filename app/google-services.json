@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1031889122177",
+    "project_id": "fir-kotlin-59a65",
+    "storage_bucket": "fir-kotlin-59a65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031889122177:android:68427f6f74c2ccf0baae80",
+        "android_client_info": {
+          "package_name": "com.example.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031889122177-fhqnc2k05dnhsfh5knlrl8kdr1m05hac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd5KVj_-j6RILK0psL96Sdi89o9ktbf8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031889122177-fhqnc2k05dnhsfh5knlrl8kdr1m05hac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
